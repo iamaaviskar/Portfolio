@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <>
-      <div className="flex flex-col md:flex-row gap-7 justify-center items-center font-mono">
+      <div className="flex flex-col md:flex-row gap-7 justify-center items-center font-mono max-w-full bg-white p-4">
         <div className="md:ml-14 mt-4 md:mt-0">
           <h1 className="font-light text-2xl md:text-4xl md:font-semibold">
             Hi,{" "}
