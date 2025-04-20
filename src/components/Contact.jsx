@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
 
 function Contact() {
   return (
