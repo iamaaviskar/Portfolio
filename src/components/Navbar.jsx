@@ -15,7 +15,6 @@ function Navbar() {
             <a href="#">Aaviskar</a>
           </h1>
 
-          {/* Hamburger Icon for Mobile */}
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
@@ -26,7 +25,6 @@ function Navbar() {
             </button>
           </div>
 
-          {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-6 md:mr-16">
             <li>
               <a href="/">Home</a>
@@ -46,7 +44,6 @@ function Navbar() {
           </ul>
         </div>
 
-        {/* Mobile Dropdown */}
         {menuOpen && (
           <ul className="md:hidden flex flex-col space-y-3 mt-4">
             <li>
