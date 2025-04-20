@@ -12,7 +12,7 @@ function Hero() {
           </h1>
 
           <button
-            className="bg-blue-500 border rounded-md w-20 h-9 text-white cursor-pointer hover:bg-blue-700 transition duration-300"
+            className="bg-blue-500 border rounded-md w-20 h-9 text-white cursor-pointer hover:bg-blue-700 transition duration-300 ease-in-out mt-4"
             onClick={() => {
               alert("Hah! gaeee");
             }}
