@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="bg-white font-mono p-3 shadow-md overflow-x-hidden">
+      <nav className="bg-blue-500  text-white font-mono p-3 shadow-md overflow-x-hidden">
         <div className="flex justify-between items-center">
           <h1 className="text-3xl ml-1 md:ml-16 mt-1">
             <a href="#">Aaviskar</a>
@@ -39,7 +39,7 @@ function Navbar() {
               <a href="#">Works</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -59,7 +59,7 @@ function Navbar() {
               <a href="#">Works</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         )}
