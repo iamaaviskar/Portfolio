@@ -2,7 +2,7 @@ function Hero() {
   return (
     <>
       <div className="flex flex-col md:flex-row gap-7 justify-center items-center font-mono">
-        <div className="md:ml-15 mt-4 md:mt-0">
+        <div className="md:ml-14 mt-4 md:mt-0">
           <h1 className="font-light text-2xl md:text-4xl md:font-semibold">
             Hi,{" "}
             <p>
@@ -21,7 +21,11 @@ function Hero() {
           </button>
         </div>
 
-        <img src="luffys.jpg" alt="luffy" className="rounded w-full md:w-1/2" />
+        <img
+          src="luffys.jpg"
+          alt="luffy"
+          className="rounded w-[710px] md:w-[710px]"
+        />
       </div>
     </>
   );
