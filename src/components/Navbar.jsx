@@ -47,10 +47,10 @@ function Navbar() {
         {menuOpen && (
           <ul className="md:hidden flex flex-col space-y-3 mt-4">
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
               <a href="#">Skills</a>
